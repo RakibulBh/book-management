@@ -1,0 +1,29 @@
+# Frontend ignores
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend ignores
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
+backend/.vs/
+backend/Properties/
+
+# Environment files
+.env
+.env.local
+*.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
